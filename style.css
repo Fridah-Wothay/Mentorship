@@ -1,0 +1,139 @@
+body{
+  background-color: burlywood;
+}
+#landingpage{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size:x-large;
+  margin-top: -90px;
+  
+  
+}
+img{
+  height: 10%;
+ width: 10%
+ 
+ 
+}
+#text{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  background-color: darksalmon;
+
+}
+#begin{
+  text-align: center;
+  font-size: xx-large;
+
+}
+img{
+height: 30%;
+width: 70%;
+margin-left: 10%;
+
+}
+#down{
+  text-align: center;
+  font-size:larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mentorslogo{
+  width: 180px;
+  height: 150px;
+  
+
+  
+}
+#image3{
+  height: 5%;
+  width: 5%;
+}
+#one{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+.style{
+  height: 90%;
+  width: 70%;
+  border-radius: 20%;
+
+}
+.logo{
+  height: 9%;
+  width: 10%;
+  margin-top: -50px;
+  
+  
+  
+}
+@media only screen and (max-width: 768px) {
+  body{
+    background-color: burlywood;
+  }
+  #landingpage{
+ display: grid;
+    gap: 5px;
+    font-size:x-large;
+    
+  }
+  img{
+    height: 10%;
+   width: 10%
+   
+   
+  }
+  #text{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+  }
+  a:hover{
+    background-color: darksalmon;
+  
+  }
+  #begin{
+    text-align: center;
+    font-size: large;
+  
+  }
+  img{
+  height: 30%;
+  width: 70%;
+  margin-left: 10%;
+  
+  }
+  #down{
+    text-align: center;
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .mentorslogo{
+    width: 80px;
+    height: 150px;
+    
+  
+    
+  }
+  #image3{
+    height: 5%;
+    width: 5%;
+  }
+  #one{
+    flex-wrap: wrap;
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+  .style{
+    height: 90%;
+    width: 70%;
+    border-radius: 20%;
+  
+  }
+}

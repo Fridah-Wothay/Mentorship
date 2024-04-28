@@ -1,0 +1,62 @@
+#decor{
+    text-align: center;
+    font-size: x-large;
+}
+#review{
+    
+    font-size: x-large;
+    margin-left: 5%;
+}
+#chapter{
+    text-align: center;
+}
+body{
+    background-color:burlywood;
+}
+#nav{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    gap:5%
+    
+}
+#text{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: darksalmon;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #decor{
+        text-align: center;
+        font-size: x-large;
+    }
+    #review{
+        
+        font-size: x-large;
+        margin-left: 5%;
+    }
+    #chapter{
+        text-align: center;
+    }
+    body{
+        background-color:burlywood;
+    }
+    #nav{
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        gap:5%
+        
+    }
+    #text{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        background-color: darksalmon;
+    }
+}

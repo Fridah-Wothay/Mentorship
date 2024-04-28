@@ -1,0 +1,122 @@
+#styleform{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 50vh;
+    width: 750px;
+    background-color: antiquewhite;
+    margin-left: 30%;
+    font-size: larger;
+
+}
+#login{
+    text-align: center;
+    font-size: x-large;
+    
+}
+#button1{
+    color: aliceblue;
+    background-color: rgb(24, 53, 53);
+    border-radius: 50px;
+    height: 40px;
+    width: 135px;
+    
+    
+
+
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+body{
+    background-color: burlywood;
+}
+.color{
+    color: black;
+}
+img{
+    width: 7%;
+    height: 7%;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    gap: 5%;
+    
+
+}
+#text{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: darksalmon;
+}
+
+@media only screen and (max-width: 768px) {
+    #styleform{
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+        border: 1px solid;
+        border-radius: 25px;
+        height: 50vh;
+        width: 350px;
+        background-color: antiquewhite;
+        margin-left: 3%;
+        font-size: large;
+    
+    }
+    #login{
+        text-align: center;
+        font-size: large;
+        
+    }
+    #button1{
+        color: aliceblue;
+        background-color: rgb(24, 53, 53);
+        border-radius: 40px;
+        height: 40px;
+        width: 135px;
+    
+    
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    body{
+        background-color: burlywood;
+    }
+    .color{
+        color: black;
+    }
+    img{
+        width: 7%;
+        height: 7%;
+    }
+    #nav{
+        display: grid;
+        font-size:large;
+        gap: 5%;
+        
+    
+    }
+    #text{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        background-color: darksalmon;
+    }
+}
+
+    
+
