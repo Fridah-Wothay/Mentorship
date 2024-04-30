@@ -5,7 +5,8 @@
 #review{
     
     font-size: x-large;
-    margin-left: 5%;
+    margin-left: 12%;
+    
 }
 #chapter{
     text-align: center;
@@ -27,6 +28,12 @@ body{
 a:hover{
     background-color: darksalmon;
 }
+#img{
+    
+
+}
+
+
 
 @media only screen and (max-width: 768px) {
 
